@@ -80,11 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "YUI — Tied In Bloom | Bouquets, Hampers & Gifting Studio in Ranipet, Vellore" },
       { name: "description", content: "YUI is a boutique gifting studio in Ranipet | Vellore crafting premium bouquets, floral & fruit baskets, luxury hampers, custom creations, return gifts and corporate gifting. Tied in Bloom." },
       { name: "author", content: "YUI Studio" },
-      { property: "og:title", content: "YUI — Tied In Bloom" },
-      { property: "og:description", content: "Bouquets · Hampers · Return Gifts. A boutique gifting studio in Ranipet | Vellore." },
+      { property: "og:title", content: "YUI — Tied In Bloom | Bouquets, Hampers & Gifting Studio in Ranipet, Vellore" },
+      { property: "og:description", content: "YUI is a boutique gifting studio in Ranipet | Vellore crafting premium bouquets, floral & fruit baskets, luxury hampers, custom creations, return gifts and corporate gifting. Tied in Bloom." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@yuistudio.in" },
+      { name: "twitter:title", content: "YUI — Tied In Bloom | Bouquets, Hampers & Gifting Studio in Ranipet, Vellore" },
+      { name: "twitter:description", content: "YUI is a boutique gifting studio in Ranipet | Vellore crafting premium bouquets, floral & fruit baskets, luxury hampers, custom creations, return gifts and corporate gifting. Tied in Bloom." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9972dc20-1b1b-4e85-828c-eb9a18d8f2a2/id-preview-df5a514a--43f2eeb6-0723-47f8-a81c-260424f3cf58.lovable.app-1783526857766.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9972dc20-1b1b-4e85-828c-eb9a18d8f2a2/id-preview-df5a514a--43f2eeb6-0723-47f8-a81c-260424f3cf58.lovable.app-1783526857766.png" },
     ],
     links: [
       {
