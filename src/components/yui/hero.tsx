@@ -53,15 +53,6 @@ export function Hero() {
         <Reveal delay={600}>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
             <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 rounded-full bg-[var(--mocha)] px-8 py-4 text-xs font-medium tracking-[0.25em] text-[var(--cream)] uppercase shadow-[0_10px_30px_-12px_color-mix(in_oklab,var(--mocha)_60%,transparent)] transition hover:translate-y-[-2px] hover:shadow-[0_16px_40px_-14px_color-mix(in_oklab,var(--mocha)_70%,transparent)]"
-            >
-              <WhatsappIcon className="h-4 w-4" />
-              Order on WhatsApp
-            </a>
-            <a
               href="#offerings"
               className="text-xs tracking-[0.3em] text-[var(--mocha)]/70 uppercase underline-offset-8 hover:underline"
             >
