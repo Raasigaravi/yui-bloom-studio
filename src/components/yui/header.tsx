@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import logoAsset from "@/assets/yui-logo.asset.json";
 
-const WHATSAPP_URL = "https://wa.me/919600599984";
-
 const NAV = [
   { label: "About", href: "#about" },
   { label: "Offerings", href: "#offerings" },
