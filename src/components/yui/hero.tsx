@@ -1,9 +1,7 @@
 import logoAsset from "@/assets/yui-logo.asset.json";
 import heroFloral from "@/assets/hero-floral.jpg";
-import { WhatsappIcon } from "./header";
 import { Reveal } from "./reveal";
 
-const WHATSAPP_URL = "https://wa.me/919600599984";
 
 export function Hero() {
   return (
