@@ -162,6 +162,10 @@
 
   .font-script { font-family: var(--font-script); }
   .font-serif-display { font-family: var(--font-serif); }
+
+  #lovable-badge {
+    display: none !important;
+  }
 }
 
 @utility gold-divider {
