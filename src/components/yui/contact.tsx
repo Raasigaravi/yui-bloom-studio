@@ -1,6 +1,5 @@
 import { Phone, MapPin, Instagram, User } from "lucide-react";
 import waAsset from "@/assets/yui-wa.asset.json";
-import igAsset from "@/assets/yui-ig.asset.json";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
 import { WhatsappIcon } from "./header";
