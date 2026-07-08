@@ -54,17 +54,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[var(--mocha)] px-4 py-2 text-xs font-medium tracking-widest text-[var(--cream)] uppercase transition hover:opacity-90 sm:px-5 sm:text-[0.7rem]"
-          >
-            <WhatsappIcon className="h-4 w-4" />
-            <span className="hidden sm:inline">Order on WhatsApp</span>
-            <span className="sm:hidden">Order</span>
-          </a>
+        <div className="flex items-center justify-end">
           <button
             onClick={() => setOpen((v) => !v)}
             className="grid h-10 w-10 place-items-center rounded-full border border-[var(--mocha)]/20 text-[var(--mocha)] lg:hidden"
