@@ -45,9 +45,8 @@ export function Contact() {
           </Reveal>
 
           <Reveal delay={200}>
-            <div className="grid grid-cols-2 gap-5">
-              <QrCard label="Chat with us" url={waAsset.url} tag="WhatsApp" />
-              <QrCard label="Follow us" url={igAsset.url} tag="@yuistudio.in" />
+            <div className="flex justify-center">
+              <QrCard label="Scan to order on WhatsApp" url={waAsset.url} tag="WhatsApp" />
             </div>
           </Reveal>
         </div>
