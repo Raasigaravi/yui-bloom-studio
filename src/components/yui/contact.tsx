@@ -89,11 +89,11 @@ function ContactRow({
 
 function QrCard({ label, url, tag }: { label: string; url: string; tag: string }) {
   return (
-    <div className="flex flex-col items-center gap-3 rounded-sm border border-[var(--mocha)]/15 bg-[var(--cream)] p-5">
-      <p className="text-[0.6rem] tracking-[0.35em] text-[var(--mocha)]/60 uppercase">
+    <div className="flex w-full max-w-xs flex-col items-center gap-4 rounded-sm border border-[var(--mocha)]/15 bg-[var(--cream)] p-6">
+      <p className="text-[0.65rem] tracking-[0.35em] text-[var(--mocha)]/60 uppercase">
         {label}
       </p>
-      <img src={url} alt={`${label} QR code`} className="h-full w-full object-contain" loading="lazy" />
+      <img src={url} alt={`${label} QR code`} className="h-auto w-full object-contain" loading="lazy" />
       <p className="text-xs tracking-widest text-[var(--mocha)]/80">{tag}</p>
     </div>
   );
