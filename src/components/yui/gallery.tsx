@@ -1,19 +1,15 @@
-import g1 from "@/assets/gallery-1.jpg";
-import g2 from "@/assets/gallery-2.jpg";
-import g3 from "@/assets/gallery-3.jpg";
-import g4 from "@/assets/gallery-4.jpg";
-import g5 from "@/assets/gallery-5.jpg";
-import g6 from "@/assets/gallery-6.jpg";
+import b1 from "@/assets/bloom-1.png.asset.json";
+import b2 from "@/assets/bloom-2.png.asset.json";
+import b3 from "@/assets/bloom-3.png.asset.json";
+import b4 from "@/assets/bloom-4.png.asset.json";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
 
 const IMGS = [
-  { src: g1, alt: "Hand‑tied bouquet of blush roses and lilies in cream kraft wrap" },
-  { src: g2, alt: "Luxury hamper with chocolates, lavender and cream ribbon" },
-  { src: g3, alt: "Floral and fruit gift basket with roses and gypsophila" },
-  { src: g5, alt: "Bridal bouquet of magnolias and blush roses with satin ribbon" },
-  { src: g4, alt: "Pastel return gift boxes with satin ribbons and dried florals" },
-  { src: g6, alt: "Corporate gift box with dried florals and mocha ribbon" },
+  { src: b1.url, alt: "Happy Birthday pink rose bouquet with gypsophila and gold heart topper" },
+  { src: b2.url, alt: "Chocolate and rose bouquet with KitKat, Dairy Milk and Ferrero Rocher" },
+  { src: b3.url, alt: "Vibrant red and yellow rose bouquet in polka dot wrap" },
+  { src: b4.url, alt: "Classic red rose bouquet wrapped in newspaper with red ribbon" },
 ];
 
 export function Gallery() {
